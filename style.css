@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+td.down {
+    color: red; 
+  }
+  
+  td.up {
+    color: green; 
+  }
+ #table{
+    width:100% ;
+    text-align: center;
+    margin-left: 10px;
+ }
+ #thead{
+    display: none;
+ }
+  #searchInput{
+    width:65% ;
+    padding: 20px;
+   color:white
+  }
+  #header{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  button{
+    padding: 20px;
+    margin-left: 10px;
+  }
+  .table-row,
+  .header-row,
+  button{
+    color:aliceblue
+  }
+  button{
+    border: 1px solid white;
+  }
+  button:hover{
+    background-color: rgba(211, 19, 19, 0.732);
+    cursor: pointer;
+  }
+  .back-btn{
+    color:aliceblue;
+    padding: 20px;
+    display: none;
+  }
